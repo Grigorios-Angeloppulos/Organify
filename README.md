@@ -24,7 +24,6 @@ Welcome to the official repository! This project features a modern full-stack ap
 ### **Infrastructure & Security**
 * **Deployment & Proxy:** IIS Server (Reverse Proxy) 🛡️
 * **SSL/TLS:** Custom TLS Certificate for HTTPS
-* **Cloud Hosting:** Netlify (Frontend) / Render (Backend) ☁️
 
 ---
 
