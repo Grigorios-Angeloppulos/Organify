@@ -35,3 +35,9 @@ Welcome to the official repository! This project features a modern full-stack ap
 * 👥 **User & Task Management:** Complete database schema support for managing users, task scheduling, and group assignments.
 * 📱 **Cross-Platform Ready:** Configurable endpoints suited for standard web browsers and mobile frameworks (e.g., React Native).
 
+* ## 📦 Getting Started
+
+### 1. Clone the Repository
+git clone https://github.com/Grigorios-Angeloppulos/Organify.git
+
+
