@@ -41,6 +41,8 @@ Welcome to the official repository! This project features a modern full-stack ap
 git clone https://github.com/Grigorios-Angeloppulos/Organify.git
 2.Add these enviromental variables: MONGO_URI,FPORT ,EMAIL_SENDER,EMAIL_PASS,SESSION_KEY,JWT_KEY<br/> **in the backend folder in a .env file**
 You need to set up a mongo db database as well as an account in emailJS and an email account for the app and run relative credentials
-If you dont want to install nodejs, you can run usinf  docker build -t my app in the project root
+3.If you dont want to install nodejs, you can run using docker build -t my app in the project root and then
+docker run -d -p 3000:3000 --env-file backend/.env --name my-running-app my-app
+**Note for docker remove "" from env variables values!**
 
 
