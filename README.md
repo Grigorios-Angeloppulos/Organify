@@ -36,13 +36,55 @@ Welcome to the official repository! This project features a modern full-stack ap
 * 📱 **Cross-Platform Ready:** Configurable endpoints suited for standard web browsers and mobile frameworks (e.g., React Native).
 
 * ## 📦 Getting Started
-
 ### 1. Clone the Repository
-git clone https://github.com/Grigorios-Angeloppulos/Organify.git
-2.Add these enviromental variables: MONGO_URI,FPORT ,EMAIL_SENDER,EMAIL_PASS,SESSION_KEY,JWT_KEY<br/> **in the backend folder in a .env file**
-You need to set up a mongo db database as well as an account in emailJS and an email account for the app and run relative credentials
-3.If you dont want to install nodejs, you can run using docker build -t my app in the project root and then
+
+git clone [https://github.com/Grigorios-Angeloppulos/Organify.git](https://github.com/Grigorios-Angeloppulos/Organify.git)
+cd Organify
+
+---
+
+### 2. Configure Environment Variables
+
+Create a `.env` file inside the `backend` directory:
+
+touch backend/.env
+
+Add the following environment variables to `backend/.env`:
+
+MONGO_URI=your_mongodb_connection_string
+FPORT=your_frontend_port
+EMAIL_SENDER=your_email_sender_address
+EMAIL_PASS=your_email_password
+SESSION_KEY=your_session_secret_key
+JWT_KEY=your_jwt_secret_key
+
+> ⚙️ **Prerequisites:**
+> * Set up a **MongoDB** database.
+> * Create an **EmailJS** account and configure an app email account to generate the required credentials.
+
+---
+
+### 3. Running the Application
+
+Choose **one** of the options below to launch the application:
+
+#### Option A: Using Docker *(Recommended)*
+No need to install Node.js globally. Run the application in an isolated container:
+
+# Build the Docker image from the project root
+docker build -t my-app .
+
+# Run the container
 docker run -d -p 3000:3000 --env-file backend/.env --name my-running-app my-app
-**Note for docker remove "" from env variables values!**
+
+> ⚠️ **Docker Note:** Make sure your `.env` values do **not** use quotes (e.g., use `MONGO_URI=value`, not `MONGO_URI="value"`).
+
+#### Option B: Local Setup (Node.js)
+If you prefer running Node.js directly on your host machine:
+
+# Install backend dependencies
+cd backend
+npm install
+npm start
 
 
