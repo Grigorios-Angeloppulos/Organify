@@ -5,8 +5,7 @@ Welcome to the official repository! This project features a modern full-stack ap
 
 <img width="1917" height="677" alt="Στιγμιότυπο οθόνης 2025-09-04 183500" src="https://github.com/user-attachments/assets/c17f64a6-a8b3-4939-99c7-c252041f9a9c" />
 
-✨ **Live Portfolio Demo:** [projectionwork.netlify.app](https://projectionwork.netlify.app/)
-
+✨ **Live Portfolio Demo:** https://organify.inteliseis.gr/
 ---
 
 ## 🛠️ Tech Stack
@@ -37,14 +36,3 @@ Welcome to the official repository! This project features a modern full-stack ap
 * 👥 **User & Task Management:** Complete database schema support for managing users, task scheduling, and group assignments.
 * 📱 **Cross-Platform Ready:** Configurable endpoints suited for standard web browsers and mobile frameworks (e.g., React Native).
 
----
-
-## ⚙️ Local Setup & Configuration
-
-Follow these steps to set up and run the project locally.
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
